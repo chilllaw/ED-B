@@ -1,5 +1,6 @@
+package Desafios;
 import java.util.Scanner;
-public class linhas {
+public class Desafio1 {
 
 public static void main(String[]args) {
     Scanner t = new Scanner (System.in);
