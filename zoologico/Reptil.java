@@ -3,7 +3,7 @@ package zoologico;
 public class Reptil extends Animal {
     private String CorEscama;
 
-
+    @Override
     public void locomover(){
         System.out.println("Rastejando");
     }
