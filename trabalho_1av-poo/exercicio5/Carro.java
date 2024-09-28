@@ -1,4 +1,4 @@
-package exercício5;
+package exercicio5;
 public class Carro extends Veiculo {
     private int numeroDePortas;
 

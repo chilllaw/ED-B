@@ -1,4 +1,4 @@
-package exercício5;
+package exercicio5;
 public class Main {
     public static void main(String[] args) {
         Carro c1 = new Carro();

@@ -1,4 +1,4 @@
-package exercício5;
+package exercicio5;
 public class Moto extends Veiculo {
     private String tipoDeGuidon;
 

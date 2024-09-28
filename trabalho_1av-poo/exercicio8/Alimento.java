@@ -1,4 +1,4 @@
-package exercício8;
+package exercicio8;
 
 public class Alimento extends Produto{
     private String dataDeValidade;

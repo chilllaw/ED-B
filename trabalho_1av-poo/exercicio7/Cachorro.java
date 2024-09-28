@@ -1,4 +1,4 @@
-package exercício7;
+package exercicio7;
 
 public class Cachorro extends Animal{
     @Override

@@ -1,4 +1,4 @@
-package exercício6;
+package exercicio6;
 
 public class Gerente extends Funcionario{
     private double bonus;
@@ -14,8 +14,6 @@ public class Gerente extends Funcionario{
 
     @Override
     public void calcularSalario(){
-        //double sf = this.getsalarioBase()+bonus;
         System.out.println(+this.getsalarioBase()+bonus);
-        //System.out.println(sf);
     }
 }

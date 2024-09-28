@@ -1,4 +1,4 @@
-package exercício7;
+package exercicio7;
 
 public class Animal {
     private String nome;
