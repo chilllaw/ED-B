@@ -1,0 +1,41 @@
+class node {
+    int valor;
+	node esquerda;
+	node direita;
+	public node(int valor) {
+		this.valor = valor;
+		this.esquerda = null;
+		this.direita = null;
+	}
+}
+public class ArvoreBinaria {
+	node raiz;
+	public ArvoreBinaria(int valor) {
+		node no = new node(valor);
+		this.raiz = no;
+	}
+
+    public inclusao(int valor) {
+	this.raiz = inclusaoRecursiva(this.raiz, valor);
+}
+}
+public node inclusaoRecursiva(node atual, int valor) {
+	if(atual == null) {
+		return new node(valor);
+	}
+	if (valor > atual.valor) {
+		atual.direita = inclusaoRecursiva(atual.direita, valor);
+	} else if (valor<atual.valor) {
+		atual.esquerda = inclusaoRecursiva(atual.esquerda, valor);
+	}
+	return atual;
+}
+public static void main (String[] args) {
+	ArvoreBinaria arvore = new ArvoreBinaria();
+	arvore.inclusao(7);
+	arvore.inclusao(6);
+	arvore.inclusao(5);
+	System.out.println("Raiz da C!rvore "+arvore.raiz.valor);
+	System.out.println("NC3 da esquerda "+ arvore.raiz.esquerda.valor);
+	System.out.println("NC3 da direita "+ arvore.raiz.direita.valor);
+}
