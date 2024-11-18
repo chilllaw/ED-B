@@ -1,1 +1,27 @@
-
+class node {
+    int valor;
+    node esquerda; //que isso meu filho calmA
+    node direita; //uepaaaaaaa
+    public node(int valor){
+        this.valor = valor;
+        this.esquerda = null;
+        this.direita = null;
+    }
+}
+public class Arvore{ //uuuuuuuuuuuuuuuiiiiiiiiiii
+	node raiz; //rapaizzzzz
+	
+	public Arvore(int valor){
+	    node no = new node(valor);
+	    this.raiz = no;
+	    }
+	    public static void main (String[] args) { //CAVAAALO
+	        Arvore arvore = new Arvore(7);// IIIIIHAAAAAA
+	        System.out.println("Raiz da árvore "+arvore.raiz.valor);
+	        node no1 = new node(6);
+	        arvore.raiz.esquerda = no1;
+	        arvore.raiz.direita = new node(8);
+	        System.out.println("Nó da esquerda "+ arvore.raiz.esquerda.valor);
+	        System.out.println("Nó da direita "+ arvore.raiz.direita.valor);
+	    }
+	}
